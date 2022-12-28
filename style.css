@@ -1,0 +1,133 @@
+
+
+body{
+    background-color: rgb(51, 49, 62);
+    color: #ddd2de;
+    
+ 
+
+
+}
+
+
+header{
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+h2{
+    font-size: 2.5vw;
+    text-emphasis: bold;
+    
+}
+p{
+    font-size: 2vw;
+    margin-bottom: 8vw;
+}
+
+#telle{
+    padding-top: 20px;
+    color: rgb(167, 167, 167);
+}
+#sec{
+    margin-left: 8vw;
+    float: left;
+    color: rgb(174, 174, 174);
+}
+#asid{
+    float: right;
+    margin-right: 8vw;
+    font-size: 2vw;
+}
+#image{
+    text-align: center;
+    margin-bottom:6vw ;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  
+    height: auto;
+    
+}
+.pp{
+    margin-bottom: 30px;
+}
+ /* Style all font awesome icons */
+ .fa {
+    padding: 2vw;
+    font-size: 3vw;
+    width: 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #303030;
+    color: #ddd2de;
+  }
+  .fa-facebook:hover{
+    background-color: #30303063;
+  }
+  
+  .fa-instagram {
+    background: #303030;
+    color: #ddd2de;
+  }
+  .waviy {
+    
+    text-align: center;
+    font-size: 5vw;
+    display: inline;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 6vw;
+    color: #ddd2de;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+.bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .9;
+    visibility: visible;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
